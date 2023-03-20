@@ -1,0 +1,65 @@
+body{
+    background-color: aqua;
+}
+
+img{
+    width:6rem;
+    height:6rem;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    height:6rem;
+}
+.cart-item{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.title{
+    text-align: center;
+}
+
+.clear-cart{
+    text-align: center;
+    margin: auto;
+    background-color: blue;
+    border-color: red;
+    padding: 0.3rem;
+}
+.main-cart{
+    text-align: center;
+    margin: auto;
+}
+.article{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.total{
+    text-align: center;
+}
+.main{
+    gap:2rem;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.remove{
+    background-color: blue;
+    border-color: red; 
+}
+
+.footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+    margin:auto;
+}
