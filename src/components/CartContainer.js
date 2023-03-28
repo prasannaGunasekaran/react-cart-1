@@ -34,10 +34,9 @@ const{cart,totalPrice,clearItems}=useGlobalContext();
             total <span>${totalPrice}</span>
           </h4>
         </div>
-<div className='main-cart'>
-<button className='clear-cart' onClick={()=> clearItems()}>clear cart</button>
-
-</div>
+            <div className='main-cart'>
+            <button className='clear-cart' onClick={()=> clearItems()}>clear cart</button>
+            </div>
       </footer>
     </section>
 
